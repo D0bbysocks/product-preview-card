@@ -134,6 +134,11 @@ body {
     padding: var(--spacer-16) var(--spacer-32);
 }
 
+.card-content button:hover {
+    background-color: var(--green-700);
+    cursor: pointer;
+}
+
 .card-content button img {
     width: 18px;
     height: auto;
